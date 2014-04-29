@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="course" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Lession" representedClassName="Lession" syncable="YES">
+        <attribute name="filling" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selecting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typing" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Result" representedClassName="Result" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Wordlist" representedClassName="Wordlist" syncable="YES">
+        <attribute name="pronoun" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Profile" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Wordlist" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Lession" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Result" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Category" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>
